@@ -70,7 +70,17 @@ h4 { border-bottom: dotted 1px #c0c0c0; }
 #top-menu a.help { background-image: url(../../../images/help.png); }
 
 
-.box {
+div.issue, .box {
     background-color: #00BACA;
     color: black;
 }
+
+#main div.issue a, #main .box a {
+    color: white;
+}
+
+#main .box a:hover {
+    color: #d3d3d3;
+    text-decoration: underline;
+}
+
