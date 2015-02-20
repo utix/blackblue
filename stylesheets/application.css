@@ -1,11 +1,35 @@
 @import url(../../../stylesheets/application.css);
 
-body{ color:#303030; background:#e8eaec; }
+body {
+     color: white;
+     background: #063641;
+}
 
-#top-menu { font-size: 80%; height: 2em; padding-top: 0.5em; background-color: #578bb8; }
-#top-menu a { font-weight: bold; }
-#header { background: #467aa7; height:5.8em; padding: 10px 0 0 0; }
-#header h1 { margin-left: 6px; }
+#top-menu {
+    font-size: 80%;
+    height: 2em;
+    padding-top: 0.5em;
+    background-color: #00BACA;
+    color: black;
+}
+
+#top-menu a {
+    font-weight: bold;
+    color: black;
+}
+
+#header {
+    height:5.8em;
+    padding: 10px 0 0 0;
+    color: #00BACA;
+    background-color: black;
+}
+
+#header h1 {
+    margin-left: 6px;
+    color: #063641;
+}
+
 #quick-search { margin-right: 6px; }
 #main-menu { background-color: #578bb8; left: 0; border-top: 1px solid #fff; width: 100%; }
 #main-menu li { margin: 0; padding: 0; }
@@ -19,14 +43,14 @@ body{ color:#303030; background:#e8eaec; }
 #main { font:90% Verdana,Tahoma,Arial,sans-serif; background: #e8eaec; }
 #main a { font-weight: bold; color: #467aa7;}
 #main a:hover { color: #2a5a8a; text-decoration: underline; }
-#content { background: #fff; }
+#content { background: #d3d3d3; }
 #content .tabs ul { bottom:-1px; }
 
 h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 { border-bottom: 0px; color:#606060; font-family: Trebuchet MS,Georgia,"Times New Roman",serif; }
 h2, .wiki h1 { letter-spacing:-1px; }
 h4 { border-bottom: dotted 1px #c0c0c0; }
 
-#top-menu a.home, #top-menu a.my-page, #top-menu a.projects, #top-menu a.administration, #top-menu a.help { 
+#top-menu a.home, #top-menu a.my-page, #top-menu a.projects, #top-menu a.administration, #top-menu a.help {
     background-position: 0% 40%;
     background-repeat: no-repeat;
     padding-left: 20px;
@@ -39,3 +63,9 @@ h4 { border-bottom: dotted 1px #c0c0c0; }
 #top-menu a.projects { background-image: url(../../../images/projects.png); }
 #top-menu a.administration { background-image: url(../images/wrench.png); }
 #top-menu a.help { background-image: url(../../../images/help.png); }
+
+
+.box {
+    background-color: #00BACA;
+    color: black;
+}
