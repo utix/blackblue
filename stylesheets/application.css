@@ -120,3 +120,7 @@ table.issues {
 #login-form a {
     color: black;
 }
+
+table.progress td.closed {
+    background: #000;
+}
