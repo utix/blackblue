@@ -84,3 +84,12 @@ div.issue, .box {
     text-decoration: underline;
 }
 
+
+#login-form table {
+    border: 2px solid black;
+    background-color: #00BACA;
+}
+
+#login-form a {
+    color: black;
+}
