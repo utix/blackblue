@@ -58,12 +58,12 @@ background-color: #fff; border: 0; color: #d3d3d3;
 }
 
 #main { font:90% Verdana,Tahoma,Arial,sans-serif; background: #e8eaec; }
-#main a { font-weight: bold; color: #467aa7;}
-#main a:hover { color: #2a5a8a; text-decoration: underline; }
+#main a { font-weight: bold; color: #00baca;}
+#main a:hover { color: white; text-decoration: underline; }
 #content { background: #d3d3d3; }
 #content .tabs ul { bottom:-1px; }
 
-h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 { border-bottom: 0px; color:#606060; font-family: Trebuchet MS,Georgia,"Times New Roman",serif; }
+h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 { border-bottom: 0px; color:#00baca; font-family: Trebuchet MS,Georgia,"Times New Roman",serif; }
 h2, .wiki h1 { letter-spacing:-1px; }
 h4 { border-bottom: dotted 1px #c0c0c0; }
 
@@ -87,6 +87,8 @@ div.issue, .box {
     color: black;
 }
 
+div.issue h2, div.issue h3, div.issue h4 { color:white;}
+.box h2, .box h3, .box h4 { color:white;}
 #main div.issue a, #main .box a {
     color: white;
 }
@@ -94,6 +96,19 @@ div.issue, .box {
 #main .box a:hover {
     color: #d3d3d3;
     text-decoration: underline;
+}
+
+table.issues {
+    color: black;
+}
+
+#main table.issues a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#sidebar {
+    color: black;
 }
 
 
