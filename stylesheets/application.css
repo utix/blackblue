@@ -37,7 +37,9 @@ body {
 #main-menu li a:hover { background-color: #80b0da; color: #ffffff; }
 #main-menu li a.selected, #main-menu li a.selected:hover { background-color: #80b0da; color: #ffffff; }
 
-#footer { background-color: #fff; border: 0; color: #d3d3d3;}
+#footer {
+background-color: #fff; border: 0; color: #d3d3d3;
+}
 #footer a {
     color: #000;
     font-weight: bold;
