@@ -1,0 +1,5 @@
+@import url(../../../stylesheets/context_menu.css);
+
+#main table.issues .context-menu-selection.priority-highest { color: #ffb2b2 !important; }
+.context-menu-selection { background-color: #666 !important; }
+.context-menu-selection:hover { background-color: #333 !important; }

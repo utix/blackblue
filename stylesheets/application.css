@@ -102,10 +102,26 @@ table.issues {
     color: black;
 }
 
+#main table.issues tr:hover {
+    background-color: #00BACA;
+}
+
 #main table.issues a:hover {
     color: black;
     text-decoration: underline;
 }
+
+.priority-highest {
+    background-color: #ffb2b2;
+    color: white;
+}
+.priority-highest:hover {
+    color: black;
+}
+#main table.issues .priority-highest a { color: white; }
+#main table.issues .priority-highest a:hover { color: black; }
+#main table.issues .priority-lowest {color: #aaa; font-style: italic; }
+#main table.issues tr:hover a { color:white;}
 
 #sidebar {
     color: black;
