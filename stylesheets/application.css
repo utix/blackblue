@@ -140,3 +140,9 @@ table.issues {
 table.progress td.closed {
     background: #000;
 }
+
+legend {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
