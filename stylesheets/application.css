@@ -1,10 +1,11 @@
 @import url(../../../stylesheets/application.css);
 
 body {
-     color: white;
      background: black;
 }
-
+#wrapper {
+    background: black;
+}
 #top-menu {
     font-size: 80%;
     height: 2em;
@@ -23,15 +24,18 @@ body {
     padding: 10px 0 0 0;
     color: #00BACA;
     background-color: black;
+    background: url(../images/logo.png) no-repeat top left,
+                url(../images/bandeau.jpg) no-repeat top right;
 }
 
 #header h1 {
-    margin-left: 6px;
+    margin-left: 120px;
     color: #00BACA;
 }
 
 #quick-search { margin-right: 6px; }
 #main-menu { left: 0; width: 100%; }
+#main-menu ul { margin-left:120px }
 #main-menu li {
     margin-left: 3px;
     padding: 0;
@@ -57,10 +61,10 @@ background-color: #fff; border: 0; color: #d3d3d3;
     font-weight: bold;
 }
 
-#main { font:90% Verdana,Tahoma,Arial,sans-serif; background: #e8eaec; }
+#main { font:90% Verdana,Tahoma,Arial,sans-serif; background: #e8eaec;}
 #main a { font-weight: bold; color: #00baca;}
 #main a:hover { color: white; text-decoration: underline; }
-#content { background: #d3d3d3; }
+#content { background: #d3d3d3 url(../images/logo_fond.png) no-repeat right bottom; }
 #content .tabs ul { bottom:-1px; }
 
 h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 { border-bottom: 0px; color:#00baca; font-family: Trebuchet MS,Georgia,"Times New Roman",serif; }
