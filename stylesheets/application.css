@@ -8,8 +8,8 @@ body {
 }
 #top-menu {
     font-size: 80%;
-    height: 2em;
-    padding-top: 0.5em;
+    height: 18px;
+    padding-top: 3px;
     background-color: #00BACA;
     color: black;
 }
@@ -41,17 +41,19 @@ body {
     padding: 0;
 }
 #main-menu li a {
-    background-color: #80b0da;
+    background-color: #00BACA;
     font-size: 90%;
     padding: 4px 8px 4px 8px;
     font-weight: bold;
     border-radius: 5px 5px 0px 0px;
 }
-#main-menu li a:hover { background-color: #80b0da; color: #ffffff; }
+#main-menu li a:hover { background-color: #bbb; color: #000; }
 #main-menu li a.selected, #main-menu li a.selected:hover {
     background-color: #d3d3d3;
     color: black;
 }
+
+#main .tabs ul li a.selected {  background-color: #00BACA;}
 
 #footer {
 background-color: #fff; border: 0; color: #d3d3d3;
@@ -126,6 +128,7 @@ table.issues {
 #main table.issues .priority-highest a:hover { color: black; }
 #main table.issues .priority-lowest {color: #aaa; font-style: italic; }
 #main table.issues tr:hover a { color:white;}
+#main table.issues th {background-color: black;}
 
 #sidebar {
     color: black;
@@ -150,3 +153,15 @@ legend {
     border: 1px solid white;
     color: white;
 }
+
+fieldset.collapsible>legend {border: 0px; color: black;}
+#main .contextual a { color: black;}
+#main p.other-formats a {color: black;}
+#main .contextual a:hover { color: white;}
+#main p.other-formats a:hover {color: white;}
+
+.nodata {
+    border: 2px solid black;
+    background-color: #00BACA;
+    color: white;
+  }
