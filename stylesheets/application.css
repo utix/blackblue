@@ -128,7 +128,7 @@ table.issues {
 #main table.issues .priority-highest a:hover { color: black; }
 #main table.issues .priority-lowest {color: #aaa; font-style: italic; }
 #main table.issues tr:hover a { color:white;}
-#main table.issues th {background-color: black;}
+#main table.issues th {background-color: black; color: #00BACA;}
 
 #sidebar {
     color: black;
